@@ -8,6 +8,7 @@ function makeGrid() {
     // select size input
     const heightInput = document.getElementById("inputHeight").value;
     const widthInput = document.getElementById("inputWidth").value;
+    // reset table when new grid is created
     table.innerHTML = '';
     // create cells
     for (let r = 1; r <= heightInput; r++) {
